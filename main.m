@@ -10,8 +10,10 @@ cp = getCpfromTandRho(T,rho);
 sos = getSosfromTandRho(T,rho);
 e = getEnergyfromTandRho(T,rho);
 h = getEnthalpyfromTandRho(T,rho);
+mu = getViscosityfromTandRho(T,rho);
+lambda = getConductivityfromTandRho(T,rho);
 
-figure,plot(T,h)
+figure,plot(T,lambda)
 
 
 
